@@ -6,11 +6,12 @@ $(window).ready(function() {
       ++width;
       if(width > 100) {
         width = 0;
-        wait = 50;
+        wait = 1;
       }
       $('#progress').css('width', width + '%');
     } else {
-      wait--;
+      $('#progress').css('display', 'hidden');
+      $('#fuck-off').css('display', 'block');
     }
   }, 100);
 });
