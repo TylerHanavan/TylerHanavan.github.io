@@ -6,7 +6,7 @@ $(window).ready(function() {
       ++width;
       if(width > 100) {
         width -= 99;
-        wait = 20;
+        wait = 50;
       }
       $('#progress').css('width', width + '%');
     } else {
