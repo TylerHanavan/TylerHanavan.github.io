@@ -10,7 +10,7 @@ $(window).ready(function() {
       }
       $('#progress').css('width', width + '%');
     } else {
-      $('#progress').css('display', 'hidden');
+      $('#progress').css('display', 'none');
       $('#fuck-off').css('display', 'block');
     }
   }, 100);
