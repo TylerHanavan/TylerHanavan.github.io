@@ -6,5 +6,5 @@ $(window).ready(function() {
       width -= 99;
     }
     $('#progress').css('width', width + '%');
-  }, 50);
+  }, 100);
 });
