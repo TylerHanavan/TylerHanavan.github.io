@@ -12,7 +12,7 @@ $(window).ready(function() {
     } else {
       $('#progress-div').css('display', 'none');
       $('#progress').css('display', 'none');
-      $('#fuck-off').css('display', 'block');
+      $('#status').html('<h2>Go fuck yourself</h2>');
     }
   }, 100);
 });
