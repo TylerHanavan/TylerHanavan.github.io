@@ -14,5 +14,5 @@ $(window).ready(function() {
       $('#progress').css('display', 'none');
       $('#status').html('<h2>Go fuck yourself</h2>');
     }
-  }, 200);
+  }, 50);
 });
