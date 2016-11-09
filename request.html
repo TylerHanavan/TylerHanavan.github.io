@@ -6,11 +6,16 @@
 
   var data = decodeURIComponent($.param("data"));
 
-  document.write("You passed in data: " + data);
+  document.getElementById("result").innerHTML = "You passed parameter: " + data;
 
   </script>
 
-
 </head>
+
+<body>
+
+  <p id="result"></p>
+
+</body>
 
 </html>
