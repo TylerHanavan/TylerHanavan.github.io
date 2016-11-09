@@ -1,6 +1,6 @@
 var lime = new Lime();
 
-lime.doRoute(new LimeRoute("data", "http://www.masspvp.com/test/request.php", s, a));
+lime.addRoute(new LimeRoute("data", "http://www.masspvp.com/test/request.php", s, a));
 
 var request = lime.doRequest("data", {});
 
