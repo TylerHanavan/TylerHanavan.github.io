@@ -12,7 +12,18 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/lime.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+
+      (function() {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'tylerhanavan.github.io/script.js';
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+      })();
+
+    </script>
       <center>
         <h2>Tyler Hanavan<h2>
         <h3>Web Developer</h3>
