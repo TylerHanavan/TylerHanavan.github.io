@@ -1,13 +1,17 @@
-var lime = new Lime();
+$(document).ready(function() {
 
-lime.addRoute(new LimeRoute("data", "request.html", s, a));
+  var lime = new Lime();
 
-var request = lime.doRequest("data", {});
+  lime.addRoute(new LimeRoute("data", "request.html", s, a));
 
-function s(response) {
-  //$("#test").text(response.data);
-}
+  var request = lime.doRequest("data", {});
 
-function a(a, b, c) {
+  function s(response) {
+    //$("#test").text(response.data);
+  }
 
-}
+  function a(a, b, c) {
+
+  }
+
+});
